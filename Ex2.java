@@ -60,6 +60,8 @@ class Divide implements Operation
     {
         Scanner input = new Scanner(System.in);
 
+        System.out.print("Input two numbers: ");
+
         double a = input.nextDouble();
         double b = input.nextDouble();
 
